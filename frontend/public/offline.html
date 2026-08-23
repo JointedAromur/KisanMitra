@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KisanMitra - Offline Mode</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #052e16;
+      color: #f0fdf4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 32px 24px;
+      max-width: 420px;
+      backdrop-filter: blur(10px);
+    }
+    .icon {
+      font-size: 64px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 12px;
+      color: #4ade80;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #dcfce7;
+      margin-bottom: 24px;
+    }
+    .btn {
+      background: #22c55e;
+      color: #052e16;
+      font-weight: 700;
+      border: none;
+      padding: 14px 28px;
+      border-radius: 12px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(34, 197, 94, 0.4);
+    }
+    .tips {
+      margin-top: 24px;
+      text-align: left;
+      font-size: 13px;
+      background: rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      border-radius: 12px;
+    }
+    .tips li {
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">🌾</div>
+    <h1>आप ऑफलाइन हैं / You are Offline</h1>
+    <p>
+      इंटरनेट कनेक्शन नहीं मिल रहा है। किसान मित्र आपके पहले से लोड किए गए डेटा और सुझावों को सुरक्षित रखता है।
+      <br><br>
+      No internet connection detected. Previously viewed advisory and market data remain available offline.
+    </p>
+    <button class="btn" onclick="window.location.reload()">पुनः प्रयास करें / Retry Connection</button>
+    <div class="tips">
+      <strong>Offline Farming Tips / सुझाव:</strong>
+      <ul>
+        <li>Drip irrigation saves 40% water during hot hours.</li>
+        <li>Check crop leaves early morning for pests.</li>
+        <li>Offline camera captures will sync automatically once back online.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
