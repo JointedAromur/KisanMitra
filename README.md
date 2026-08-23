@@ -5,6 +5,12 @@
 **Track:** Problem Statement 5 - AI for Public Good
 **Team:** Mrityunjay Yadav, Binay Tiwari, Rishab Gupta
 
+## 📸 Screenshots
+
+![Home Dashboard](./assets/homepage.png)
+![Crop Doctor AI](./assets/Cropdetector.png)
+![Simple login](./assets/login.png)
+
 ## 📌 What it Does
 KisanMitra is a Progressive Web App (PWA) designed for low-connectivity environments. It provides actionable agricultural intelligence through an ultra-minimal, glassmorphic, multilingual interface.
 
